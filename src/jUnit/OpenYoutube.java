@@ -10,7 +10,7 @@ WebDriver testDriver;
 	public void youTube() {
 			
 			testDriver = library.Browsers.chooseBrowser("firefox");
-			// Navigate to /Youtube Sports
+			// Navigate to /Youtube Sports testers
 			testDriver.get("https://www.youtube.com");
 			library.ScreenShots.scrnshot(testDriver, "newpage");
 			testDriver.close();
